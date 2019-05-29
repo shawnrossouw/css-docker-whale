@@ -159,7 +159,7 @@ h1 {
         146px 169px,
         151px 176px,
         157px 184px,
-        162px 191px,
+        165px 191px,
         175px 198px
       );
       clip-path: polygon(
@@ -190,7 +190,7 @@ h1 {
         146px 169px,
         151px 176px,
         157px 184px,
-        162px 191px,
+        165px 191px,
         175px 198px
       );
       background: white;
@@ -206,12 +206,12 @@ h1 {
     top: 0;
     left: 0;
     shape-outside: polygon(
-      19px 103px,
-      37px 112px,
-      51px 116px,
-      63px 119px,
+      19px 102px,
+      38px 111px,
+      51px 115px,
+      63px 118px,
       76px 121px,
-      91px 121px,
+      91px 122px,
       104px 120px,
       117px 118px,
       128px 114px,
@@ -226,12 +226,12 @@ h1 {
       23px 110px
     );
     clip-path: polygon(
-      19px 103px,
-      37px 112px,
-      51px 116px,
-      63px 119px,
+      19px 102px,
+      38px 111px,
+      51px 115px,
+      63px 118px,
       76px 121px,
-      91px 121px,
+      91px 122px,
       104px 120px,
       117px 118px,
       128px 114px,
@@ -246,4 +246,63 @@ h1 {
       23px 110px
     );
   }
+  &-tail {
+    position: absolute;
+    width: 355px;
+    height: 253px;
+    background: #23b9ee;
+    opacity: 1;
+    top: -103px;
+    right: -290px;
+    clip-path: polygon(
+      2px 104px,
+      38px 104px,
+      61px 103px,
+      71px 102px,
+      81px 99px,
+      90px 96px,
+      98px 91px,
+      105px 85px,
+      126px 109px,
+      117px 113px,
+      108px 116px,
+      100px 121px,
+      92px 127px,
+      84px 133px,
+      77px 141px,
+      71px 149px,
+      65px 159px,
+      61px 170px,
+      57px 184px,
+      38px 212px,
+      24px 233px,
+      0px 256px
+    );
+  }
+  &-tailend1 {
+    position: absolute;
+    width: 355px;
+    height: 253px;
+    background: #23b9ee;
+    top: -103px;
+    right: -290px;
+    clip-path: ellipse(24px 48px at 28.75% 27.25%);
+  }
+  &-tailend2 {
+    position: absolute;
+    width: 355px;
+    height: 253px;
+    background: #23b9ee;
+    top: -103px;
+    right: -290px;
+    clip-path: ellipse(46px 24px at 37.75% 37.15%);
+  }
 }
+
+/*.rev{
+  background-image: url('/docker-whale-light.jpg');
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  background-position: center;
+}*/
